@@ -24,7 +24,7 @@ FastLending would like to use machine learning to predict credit risk.  The hypo
 ![Fig1c: Random  Imbalanced Classification](other_resources/01c_RandomOverSampler_ImbalancedClassification.png)
 [Fig1c: Random  Imbalanced Classification](other_resources/01c_RandomOverSampler_ImbalancedClassification.png?raw=true "Figure 1c: Random Oversampler Imbalanced Classification")
 
-- More detail for the Random oversampler is evidenced in Figure 1c.  The high risk loans have a low precision of 1%, which is to say that given a high risk prediction, there is a % chance that the loan is actually high risk.  With a recall of 69%, the model indicates that for High Risk loans, the model will correctly predict 69% of those results as being high risk.
+- More detail for the Random oversampler is evidenced in Figure 1c.  The high risk loans have a low precision of 1%, which is to say that given a high risk prediction, there is a 1% chance that the loan is actually high risk.  With a recall of 69%, the model indicates that for High Risk loans, the model will correctly predict 69% of those results as being high risk.
 
 ![Fig2a: SMOTE Accuracy Score](other_resources/02a_SMOTE_AccScore.png)
 [Fig2a: SMOTE Accuracy Score](other_resources/02a_SMOTE_AccScore.png?raw=true "Figure 2a: SMOTE Accuracy Score")
@@ -91,7 +91,7 @@ FastLending would like to use machine learning to predict credit risk.  The hypo
 ![Fig6a: AdaBoost Accuracy Score](other_resources/06a_AdaBoost_AccScore.png)
 [Fig6a: AdaBoost Accuracy Score](other_resources/06a_AdaBoost_AccScore.png?raw=true "Figure 6a: AdaBoost Accuracy Score")
 
-The last model, AdaBoost, exhibits an accuracy score of 92%.  While accuracy is still not important, it builds confidence to have an accuracy measure this high.
+The last model, AdaBoost, exhibits an accuracy score of 92%.  While accuracy is still not terribly important, it builds confidence to have an accuracy measure this high.
 
 ![Fig6b: AdaBoost Confusion Matrix](other_resources/06b_AdaBoost_ConfusionMatrix.png)
 [Fig6b: AdaBoost Confusion Matrix](other_resources/06b_AdaBoost_ConfusionMatrix.png?raw=true "Figure 6b: AdaBoost Confusion Matrix")
@@ -104,4 +104,4 @@ The last model, AdaBoost, exhibits an accuracy score of 92%.  While accuracy is 
 
 ## Summary
 
-The models generally become progressively better for this problem case, culminating in a clear best model in the AdaBoost methodology.  
+The over and undersampling models tend to hover at 55-65% accuracy, with recall values generally about 60-70%.  The ensemble methods exhibit a clear break in quality, with accuracy scores jumping to the 80-90% range, and recall rates up into the 70-90% range.  The most appropriate model appears to be the AdaBoost.
