@@ -105,3 +105,10 @@ The last model, AdaBoost, exhibits an accuracy score of 92%.  While accuracy is 
 ## Summary
 
 The over and undersampling models tend to hover at 55-65% accuracy, with recall values generally about 60-70%.  The ensemble methods exhibit a clear break in quality, with accuracy scores jumping to the 80-90% range, and recall rates up into the 70-90% range.  The most appropriate model appears to be the AdaBoost.
+
+------
+**Contact:**
+
+**E-Mail:** chrabach@gmail.com
+
+**Twitter:** @chrabach
