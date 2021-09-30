@@ -2,7 +2,7 @@
 
 
 ## Resources
-Jupyter Notebook 6.3.0 Pandas 1.2.4
+Jupyter Notebook 6.3.0, Pandas 1.2.4, sklearn
 
 ## Overview
 
